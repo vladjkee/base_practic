@@ -1,10 +1,20 @@
-.wrapper{
-  border: 5px solid red;
-  padding: 10px;
-  height: 500px;
+.btn {
+  padding: 10px 15px;
+  outline: none;
+  border: none;
   background-color: dodgerblue;
-  background-image: url("../images/street.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
+  color: white;
+  min-width: 100px;
+  max-width: 130px;
+  width: 10%;
+  overflow: hidden;
+  height: 50px;
+  margin-top: 50px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content-block{
+  width: 50%;
+  height: 300px;
+  overflow-y: auto;
 }
