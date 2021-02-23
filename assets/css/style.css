@@ -1,20 +1,67 @@
-.btn {
-  padding: 10px 15px;
-  outline: none;
-  border: none;
-  background-color: dodgerblue;
+
+
+*body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image: url("../images/power.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: block;
+  text-align: center;
+  padding: 0 20px;
+  margin: 0 auto;
+  padding-top: 400px;
+  color: burlywood;
+
+  
+}
+.button {
+  font-size: 18px;
+  text-decoration: none;
+  color: burlywood;
+  border: 1px solid burlywood;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+#section-1{
+  background-color: burlywood;
+  padding: 20px;
   color: white;
-  min-width: 100px;
-  max-width: 130px;
-  width: 10%;
-  overflow: hidden;
-  height: 50px;
-  margin-top: 50px;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  text-align: center;
 }
-.content-block{
-  width: 50%;
-  height: 300px;
-  overflow-y: auto;
+#section-2{
+  text-align: center;
+  padding: 20px;
+  background: whitesmoke;
+  display: block;
 }
+#container{
+  display: inline-block; 
+  text-align: center;
+ 
+}
+.box{
+  display: inline-block;
+  text-align: center;
+}
+.box-1{
+  padding: 20px;
+  background-color: burlywood;
+}
+.box-2{
+  padding: 20px;
+  color: burlywood;
+}
+.box-3{
+  padding: 20px;
+  background-color: burlywood;
+}
+
+
+
